@@ -90,6 +90,11 @@
   box-sizing: border-box;
 }
 
+.list:first-child {
+  color: #008aee;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 768px) {
   .container-wrapper {
     flex-direction: row;

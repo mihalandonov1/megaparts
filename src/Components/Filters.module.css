@@ -118,21 +118,37 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px 0px 10px 0px;
   gap: 10px;
+  margin-bottom: 15px;
 }
 
 .Filters__select select {
-  display: flex;
-  justify-content: space-around;
-  align-items: space-between;
   padding: 12px 21px 12px 21px;
   font-size: 16px;
   max-width: 367px;
   width: 100%;
   border: 1px solid #008aee;
+  appearance: none;
   filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
   border-radius: 30px;
+}
+
+.Filters-arrow {
+  position: absolute;
+  display: flex;
+  height: 10px;
+  margin-right: 20px;
+}
+
+.selected {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 16px;
+  max-width: 367px;
+  width: 100%;
+  appearance: none;
+  filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
 }
 
 .button {
@@ -140,14 +156,14 @@
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  padding: 12px 21px 12px 21px;
+  padding: 11px 0px 12px 0px;
   max-width: 367px;
   width: 100%;
-  border: 1px solid #008aee;
   background-color: #008aee;
+  border: 1px solid #008aee;
   color: white;
   filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .button2 {

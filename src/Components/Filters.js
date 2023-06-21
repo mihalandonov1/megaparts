@@ -13,7 +13,7 @@ const Filters = () => {
           </div>
           <button className={styles["button2"]}>
             <div>
-              <img src="/Icons/Questions.svg" alt="buy" />
+              <img src="/Icons/zapitvane.svg" alt="buy" />
             </div>
             <span>Направи запитване</span>
           </button>
@@ -40,24 +40,61 @@ const Filters = () => {
               </div>
               <div className={styles["Filters__select"]}>
                 <div className={styles["Filters__select__row"]}>
-                  <select>
-                    <option value="volvo">Марка</option>
-                  </select>
-                  <select>
-                    <option value="volvo">Категория</option>
-                  </select>
-                  <select>
-                    <option value="volvo">Населено място</option>
-                  </select>
+                  <div className={styles["selected"]}>
+                    <select>
+                      <option value="volvo">Марка</option>
+                    </select>
+                    <img
+                      src="/Icons/arrowDown.svg"
+                      alt="buy"
+                      className={styles["Filters-arrow"]}
+                    />
+                  </div>
+
+                  <div className={styles["selected"]}>
+                    <select>
+                      <option value="volvo">Категория</option>
+                    </select>
+                    <img
+                      src="/Icons/arrowDown.svg"
+                      alt="buy"
+                      className={styles["Filters-arrow"]}
+                    />
+                  </div>
+
+                  <div className={styles["selected"]}>
+                    <select>
+                      <option value="volvo">Населено място</option>
+                    </select>
+                    <img
+                      src="/Icons/arrowDown.svg"
+                      alt="buy"
+                      className={styles["Filters-arrow"]}
+                    />
+                  </div>
                 </div>
                 <div className={styles["Filters__select__row"]}>
-                  <select disabled>
-                    <option value="volvo">Модел</option>
-                  </select>
-                  <select disabled>
-                    <option value="volvo">Подкатегория</option>
-                  </select>
-                  <button className={styles["button"]}>Приложи</button>
+                  <div className={styles["selected"]}>
+                    <select>
+                      <option value="volvo">Модел</option>
+                    </select>
+                    <img
+                      src="/Icons/arrowDown.svg"
+                      alt="buy"
+                      className={styles["Filters-arrow"]}
+                    />
+                  </div>
+                  <div className={styles["selected"]}>
+                    <select>
+                      <option value="volvo">Подкатегория</option>
+                    </select>
+                    <img
+                      src="/Icons/arrowDown.svg"
+                      alt="buy"
+                      className={styles["Filters-arrow"]}
+                    />
+                  </div>
+                  <button className={styles["button"]}> Приложи</button>
                 </div>
               </div>
             </div>

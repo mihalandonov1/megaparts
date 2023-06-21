@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Offers.module.css";
+import ItemCard from "./ItemCard";
 
 const Offers = () => {
   return (
@@ -34,6 +35,24 @@ const Offers = () => {
               <p style={{ display: "flex" }}>123</p>
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            width: "100%",
+          }}
+        >
+          <ItemCard />
+          <ItemCard />
+        </div>
+        <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
+          <ItemCard />
+          <ItemCard />
+        </div>
+        <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
+          <ItemCard />
+          <ItemCard />
         </div>
       </div>
     </div>

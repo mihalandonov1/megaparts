@@ -44,6 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .Navbar__search__input {
@@ -68,7 +69,8 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  padding: 22px;
+  padding: 0px 22px 0px 22px;
+  cursor: pointer;
 }
 .Navbar__icons {
   display: flex;
@@ -77,6 +79,7 @@
   align-items: center;
   flex-shrink: 0;
   gap: 14px;
+  font-weight: 700;
 }
 
 .Navbar__icons__profile {
@@ -87,6 +90,7 @@
   height: 44px;
   border-radius: 50%;
   background-color: #008aee;
+  cursor: pointer;
 }
 
 .Navbar__phone {
@@ -94,23 +98,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: "exo 2";
   font-weight: 700;
 }
 
 .Navbar__icon {
   display: flex;
-}
-
-.Navbar__phone {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 42px;
-  font-family: ex;
+  cursor: pointer;
 }
 
 .Navbar__hamburger {
   display: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

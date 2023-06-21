@@ -31,7 +31,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  cursor: pointer;
   padding: 5px 22px 4px 12px;
 }
 
@@ -59,6 +59,15 @@
   font-size: 18px;
   line-height: 26px;
   padding-left: 10px;
+  font-weight: 500;
+}
+
+.Profile div {
+  cursor: pointer;
+}
+
+.button:nth-child(4) p {
+  font-weight: 700;
 }
 
 /* ================================== */

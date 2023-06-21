@@ -34,9 +34,7 @@ const Navbar = () => {
             <div className={styles["Navbar__icon"]}>
               <img src="/Icons/phone.svg" alt="buy" />
             </div>
-            <div style={{ fontFamily: "Exe 2" }} className="Navbar__phone">
-              02 437 32 48
-            </div>
+            <div className="Navbar__phone">02 437 32 48</div>
           </div>
         </div>
       </div>
