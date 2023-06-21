@@ -12,7 +12,9 @@ const Filters = () => {
             </h1>
           </div>
           <button className={styles["button2"]}>
-            <div></div>
+            <div>
+              <img src="/Icons/Questions.svg" alt="buy" />
+            </div>
             <span>Направи запитване</span>
           </button>
 
@@ -24,12 +26,15 @@ const Filters = () => {
               </p>
             </div>
 
-            <div className={styles["Filters__icon"]}></div>
+            <div className={styles["Filters__icon"]}>
+              <img src="/Icons/filter.svg" alt="buy" />
+            </div>
 
             <div className={styles["Filters"]}>
               <div className={styles["Filters__head"]}>
                 <h1>Филтри</h1>
                 <div className={styles["Filters__head__icon"]}>
+                  <img src="/Icons/clearFilter.svg" alt="buy" />
                   <p>Изчисти филтрите</p>
                 </div>
               </div>
@@ -50,9 +55,7 @@ const Filters = () => {
                     <option value="volvo">Модел</option>
                   </select>
                   <select disabled>
-                    <option value="volvo" disabled="true">
-                      Подкатегория
-                    </option>
+                    <option value="volvo">Подкатегория</option>
                   </select>
                   <button className={styles["button"]}>Приложи</button>
                 </div>

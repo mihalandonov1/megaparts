@@ -11,6 +11,7 @@ const Menu = () => {
             className={styles["button"]}
           >
             <div className={styles["Menu__icon"]}></div>
+            <img src="/Icons/avtochasti.svg" alt="parts" />
             <p className={styles["Menu__icon__text"]}>авточасти</p>
           </div>
           <div
@@ -18,6 +19,7 @@ const Menu = () => {
             className={styles["button"]}
           >
             <div className={styles["Menu__icon"]}></div>
+            <img src="/Icons/izkupuvane.svg" alt="buy" />
             <p className={styles["Menu__icon__text"]}>изкупуване</p>
           </div>
           <div
@@ -25,6 +27,7 @@ const Menu = () => {
             className={styles["button"]}
           >
             <div className={styles["Menu__icon"]}></div>
+            <img src="/Icons/tyrgoove.svg" alt="buy" />
             <p className={styles["Menu__icon__text"]}>търгове</p>
           </div>
           <div
@@ -32,6 +35,7 @@ const Menu = () => {
             className={styles["button"]}
           >
             <div className={styles["Menu__icon"]}></div>
+            <img src="/Icons/buy.svg" alt="sad" />
             <p className={styles["Menu__icon__text"]}>борса</p>
           </div>
           <div
@@ -39,6 +43,7 @@ const Menu = () => {
             className={styles["button"]}
           >
             <div className={styles["Menu__icon"]}></div>
+            <img src="/Icons/game.svg" alt="buy" />
             <p className={styles["Menu__icon__text"]}>игри</p>
           </div>
           <div
@@ -46,14 +51,23 @@ const Menu = () => {
             className={styles["button"]}
           >
             <div className={styles["Menu__icon"]}></div>
+            <img src="/Icons/novini.svg" alt="buy" />
             <p className={styles["Menu__icon__text"]}>новини</p>
           </div>
         </div>
         <div className={styles["Profile"]}>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>
+            <img src="/Icons/portfeil.svg" alt="buy" />
+          </div>
+          <div>
+            <img src="/Icons/heart.svg" alt="buy" />
+          </div>
+          <div>
+            <img src="/Icons/profileMessage.svg" alt="buy" />
+          </div>
+          <div>
+            <img src="/Icons/cart.svg" alt="buy" />
+          </div>
         </div>
       </div>
     </div>

@@ -11,12 +11,27 @@ const Orders = () => {
       </div>
 
       <ul className={styles["list-menu"]}>
-        <li className={styles["list"]}>Нови (1821)</li>
-        <li className={styles["list"]}>Оферирани (0)</li>
-        <li className={styles["list"]}>Бележник (0)</li>
-        <li className={styles["list"]}>Прегледани (0)</li>
+        <li className={styles["list"]}>
+          <img src="/Icons/newOffers.svg" alt="buy" />
+          Нови (1821)
+        </li>
+        <li className={styles["list"]}>
+          <img src="/Icons/ofers.svg" alt="buy" />
+          Оферирани (0)
+        </li>
+        <li className={styles["list"]}>
+          <img src="/Icons/belejnik.svg" alt="buy" />
+          Бележник (0)
+        </li>
+        <li className={styles["list"]}>
+          <img src="/Icons/eye.svg" alt="buy" />
+          Прегледани (0)
+        </li>
       </ul>
-      <div className={styles["questions-answers"]}>Въпроси и отговори</div>
+      <div className={styles["questions-answers"]}>
+        <img src="/Icons/question.svg" alt="buy" />
+        Въпроси и отговори
+      </div>
     </div>
   );
 };

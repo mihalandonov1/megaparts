@@ -48,6 +48,9 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  font-size: 26px;
+  color: #008aee;
+  font-weight: 700;
 }
 
 .offers-dropdown {
