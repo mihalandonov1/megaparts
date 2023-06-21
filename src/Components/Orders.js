@@ -5,12 +5,9 @@ import OfferListIcon from "../Images/ Icons/OfferListIcon";
 import NotesListIcon from "../Images/ Icons/NotesListIcon";
 import SeenListIcon from "../Images/ Icons/SeenListIcon";
 import QuestionsListItem from "../Images/ Icons/QuestionsListItem";
-import Offers from "./Offers";
 
 const Orders = () => {
   return (
-    // <div className={styles["layout"]}>
-    //   <div className={styles["container"]}>
     <div className={styles["container-wrapper"]}>
       <div className={styles["button-wrapper"]}>
         <button className={styles["button-sidebar"]}>Поръчки</button>
@@ -38,8 +35,6 @@ const Orders = () => {
         Въпроси и отговори
       </div>
     </div>
-    //   </div>
-    // </div>
   );
 };
 

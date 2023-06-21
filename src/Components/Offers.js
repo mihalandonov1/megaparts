@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "./Offers.module.css";
+import RedreshIcon from "../Images/ Icons/RedreshIcon";
+import battery from "../Images/ Icons/028-battery 1.svg";
+import gear from "../Images/ Icons/043-gas 1.png";
+import gas from "../Images/ Icons/043-gas1.svg";
 
 const Offers = () => {
   return (
@@ -15,12 +19,15 @@ const Offers = () => {
               <button>Без оферти</button>
               <button>Най-стари</button>
             </div>
-            <div>Обнови списъка</div>
+            <div className={styles["refresh-list"]}>
+              <RedreshIcon />
+              Обнови списъка
+            </div>
           </div>
           <div className={styles["offers-icons"]}>
-            <div>Icon</div>
-            <div>Icon</div>
-            <div>Icon</div>
+            <img src={gas} alt="gas" />
+            <img src={battery} alt="battery" />
+            <img src={gear} alt="gas" />
           </div>
         </div>
       </div>
