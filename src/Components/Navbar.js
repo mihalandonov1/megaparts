@@ -14,34 +14,22 @@ const Navbar = () => {
     <div className={styles["layout"]}>
       <div className={styles["container"]}>
         <div className={styles["Navbar"]}>
-          <div className={styles["Navbar__logo"]}>
-            <Logo />
-          </div>
-          <div className={styles["Navbar__hamburger"]}>
-            <HamburgerIcon />
-          </div>
+          <div className={styles["Navbar__logo"]}></div>
+          <div className={styles["Navbar__hamburger"]}></div>
           <div className={styles["Navbar__search"]}>
             <input
               type="text"
               placeholder="Търсене ..."
               className={styles["Navbar__search__input"]}
             />
-            <div className={styles["Navbar__search__icon"]}>
-              <SearchIcon />
-            </div>
+            <div className={styles["Navbar__search__icon"]}></div>
           </div>
           <div className={styles["Navbar__icons"]}>
             <div className={styles["Navbar__icons__profile"]}>E</div>
-            <div className={styles["Navbar__icon"]}>
-              <YoutubeIcon />
-            </div>
-            <div className={styles["Navbar__icon"]}>
-              <FacebookIcon />
-            </div>
+            <div className={styles["Navbar__icon"]}></div>
+            <div className={styles["Navbar__icon"]}></div>
 
-            <div className={styles["Navbar__icon"]}>
-              <Phone />
-            </div>
+            <div className={styles["Navbar__icon"]}></div>
             <div style={{ fontFamily: "Exe 2" }} className="Navbar__phone">
               02 437 32 48
             </div>

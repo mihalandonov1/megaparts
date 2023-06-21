@@ -1,0 +1,9 @@
+<svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="13" fill="#1E1E1E"/>
+<rect width="1440" height="2954" transform="translate(-674 -105)" fill="white"/>
+<rect x="-674" y="-105" width="1440" height="147" fill="#1C2D3A"/>
+<rect x="-18" y="-16" width="123" height="37" rx="18.5" fill="#33BB5A"/>
+<path d="M1.01 1.21997V5.70997C1.01 10.2 2.81 12 7.3 12H12.69C17.18 12 18.98 10.2 18.98 5.70997V1.21997" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 2C11.83 2 13.18 0.51 13 -1.32L12.34 -8H7.67L7 -1.32C6.82 0.51 8.17 2 10 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.9877 2C18.0077 2 19.4877 0.36 19.2877 -1.65L19.0077 -4.4C18.6477 -7 17.6477 -8 15.0277 -8H11.9777L12.6777 -0.99C12.8477 0.66 14.3377 2 15.9877 2ZM3.31774 2C4.96774 2 6.45773 0.66 6.61773 -0.99L6.83774 -3.2L7.31774 -8H4.26774C1.64774 -8 0.647735 -7 0.287735 -4.4L0.0177351 -1.65C-0.182265 0.36 1.29774 2 3.31774 2ZM9.67774 7C8.00774 7 7.17774 7.83 7.17774 9.5V12H12.1777V9.5C12.1777 7.83 11.3477 7 9.67774 7Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

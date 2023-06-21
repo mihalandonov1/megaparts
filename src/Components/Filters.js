@@ -1,8 +1,5 @@
 import React from "react";
 import styles from "./Filters.module.css";
-import CleanFilterIcon from "../Images/ Icons/CleanFilterIcon";
-import FilterIcon from "../Images/ Icons/FilterIcon";
-import QuestinButtonIcon from "../Images/ Icons/QuestinButtonIcon";
 
 const Filters = () => {
   return (
@@ -15,9 +12,7 @@ const Filters = () => {
             </h1>
           </div>
           <button className={styles["button2"]}>
-            <div>
-              <QuestinButtonIcon />
-            </div>
+            <div></div>
             <span>Направи запитване</span>
           </button>
 
@@ -29,15 +24,12 @@ const Filters = () => {
               </p>
             </div>
 
-            <div className={styles["Filters__icon"]}>
-              <FilterIcon />
-            </div>
+            <div className={styles["Filters__icon"]}></div>
 
             <div className={styles["Filters"]}>
               <div className={styles["Filters__head"]}>
                 <h1>Филтри</h1>
                 <div className={styles["Filters__head__icon"]}>
-                  <CleanFilterIcon />
                   <p>Изчисти филтрите</p>
                 </div>
               </div>
