@@ -1,0 +1,31 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1180px;
+  background-color: white;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-wrapper {
+    flex-direction: column;
+  }
+}

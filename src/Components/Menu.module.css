@@ -1,0 +1,80 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1c2d3a;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1180px;
+  width: 100%;
+  background-color: #1c2d3a;
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 0px 17px 0px;
+  box-sizing: border-box;
+}
+
+.button {
+  border-radius: 50px;
+  box-sizing: border-box;
+  display: flex;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 22px 4px 12px;
+}
+
+.Menu__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.Menu__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Menu__icon__text {
+  display: flex;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  padding-left: 10px;
+}
+
+/* ================================== */
+
+.Profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 17px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Profile {
+    display: none;
+  }
+}
