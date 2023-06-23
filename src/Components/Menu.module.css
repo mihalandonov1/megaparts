@@ -21,6 +21,8 @@
   align-items: center;
   padding: 21px 0px 17px 0px;
   box-sizing: border-box;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .button {
@@ -80,6 +82,7 @@
   width: 100%;
   gap: 17px;
   margin-left: 10px;
+  margin-right: 24px;
 }
 
 @media only screen and (max-width: 768px) {

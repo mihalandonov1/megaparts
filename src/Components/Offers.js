@@ -7,20 +7,26 @@ const Offers = () => {
     <div className={styles["layout"]}>
       <div className={styles["container"]}>
         <div className={styles["container-wrapper"]}>
-          <div className={styles["offers-dropdown"]}>
-            <select className={styles["dropdown"]}>
-              <option value="volvo">Най-нови</option>
+          <div className={styles["selected"]}>
+            <select>
+              <option value="volvo">Категория</option>
             </select>
-            <div className={styles["offers-dropdown-buttons"]}>
-              <button>Най-нови</button>
-              <button>Без оферти</button>
-              <button>Най-стари</button>
-            </div>
-            <div className={styles["refresh-list"]}>
-              <img src="/Icons/refresh.svg" alt="buy" />
-              Обнови списъка
-            </div>
+            <img
+              src="/Icons/arrowDown.svg"
+              alt="buy"
+              className={styles["Filters-arrow"]}
+            />
           </div>
+          <div className={styles["offers-dropdown-buttons"]}>
+            <button className={styles["button"]}>Най-нови</button>
+            <button className={styles["button"]}>Без оферти</button>
+            <button className={styles["button"]}>Най-стари</button>
+          </div>
+          <div className={styles["refresh-list"]}>
+            <img src="/Icons/refresh.svg" alt="buy" />
+            Обнови списъка
+          </div>
+
           <div className={styles["offers-icons"]}>
             <div className={styles["icons"]}>
               <img src="/Icons/Gasoline.svg" alt="buy" />
@@ -36,21 +42,13 @@ const Offers = () => {
             </div>
           </div>
         </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            width: "100%",
-          }}
-        >
+        <div className={styles["card-wrapper"]}>
           <ItemCard />
           <ItemCard />
-        </div>
-        <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
+
           <ItemCard />
           <ItemCard />
-        </div>
-        <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
+
           <ItemCard />
           <ItemCard />
         </div>

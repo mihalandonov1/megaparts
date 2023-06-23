@@ -13,26 +13,27 @@
   align-items: center;
   max-width: 1180px;
   width: 100%;
+  margin-right: 24px;
 }
 
 .container-wrapper {
   display: flex;
   flex-direction: row;
-  align-items: start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   width: 100%;
   margin-bottom: 26px;
-
   gap: 40px;
 }
 
 .refresh-list {
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   color: #008aee;
-  width: 100%;
   text-decoration: underline;
 }
 
@@ -45,12 +46,45 @@
   width: 100%;
 }
 
+.Filters-arrow {
+  position: absolute;
+  display: flex;
+  height: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.container-wrapper select {
+  padding: 12px 21px 12px 21px;
+  font-size: 16px;
+  max-width: 367px;
+  width: 100%;
+  border: 1px solid #008aee;
+  appearance: none;
+  filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.selected {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 16px;
+  max-width: 367px;
+  width: 100%;
+  appearance: none;
+  filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
+}
+
 .icons {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 4px;
   font-size: 26px;
   color: #008aee;
   font-weight: 700;
@@ -59,7 +93,7 @@
 .offers-dropdown {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  max-width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -81,12 +115,49 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 11px 10px 12px 10px;
+  max-width: 367px;
+  width: 100%;
+  background-color: #008aee;
+  border: 1px solid #008aee;
+  color: white;
+  filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 880px) {
   .offers-dropdown-buttons {
+    width: 100%;
+    gap: 5px;
     display: flex;
+    flex: 1;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+
+  .card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
   }
 
   .dropdown {
@@ -105,7 +176,13 @@
     width: 100%;
   }
 
+  .container {
+    margin-right: 0px;
+  }
+
   .container-wrapper {
     flex-direction: column-reverse;
+    width: 100%;
+    gap: 10px;
   }
 }

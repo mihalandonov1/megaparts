@@ -1,3 +1,12 @@
+.ads-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+}
+
 .ads-block {
   display: flex;
   flex-direction: column;
@@ -9,24 +18,25 @@
   max-width: 195px;
   background-color: #f3f3f3;
   border-radius: 10px;
-  margin-top: 40px;
-  padding: 18px;
+  cursor: pointer;
 }
 
 .ads-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 82%;
   height: 100%;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 
 .ads-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 20px;
+  width: 82%;
 }
 
 .ads-title-text {
@@ -36,6 +46,7 @@
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
+  margin: 20px 0px;
 }
 
 .ads-dots {
@@ -60,7 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
   font-family: "Exo 2";
   text-transform: uppercase;
   font-size: 20px;
@@ -78,7 +89,9 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  margin: 40px 20px;
 }
 
 .ads-text-more-wrapper {
@@ -87,6 +100,10 @@
   align-items: center;
   justify-content: center;
   border-radius: 0px 0px 10px 10px;
-  width: 100%;
-  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ads-block-container {
+    display: none;
+  }
 }

@@ -20,6 +20,17 @@
   background-color: #16242e;
 }
 
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 26px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
 .Navbar {
   display: flex;
   flex-direction: row;
@@ -127,5 +138,10 @@
   .container {
     margin-left: 24px;
     margin-right: 24px;
+  }
+
+  .container-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

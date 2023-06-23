@@ -7,10 +7,22 @@ const ItemCard = () => {
   return (
     <div className={styles["card-wrapper"]}>
       <div className={styles["img-wrapper"]}>
-        <div className={styles["main-img"]}></div>
+        <img
+          src="/images/Rectangle 86.jpg"
+          alt="pic"
+          className={styles["main-img"]}
+        />
         <div className={styles["small-img-wrapper"]}>
-          <div className={styles["small-img1"]}></div>
-          <div className={styles["small-img2"]}></div>
+          <img
+            src="/images/Rectangle 86.jpg"
+            alt="pic"
+            className={styles["small-img"]}
+          />
+          <img
+            src="/images/Rectangle 86.jpg"
+            alt="pic"
+            className={styles["small-img"]}
+          />
         </div>
       </div>
       <div className={styles["info"]}>
@@ -21,7 +33,7 @@ const ItemCard = () => {
         </div>
         <div className={styles["info-time"]}>
           <div>Валидност:</div>
-          <div>48 : 18 : 16</div>
+          <div>48:18:16</div>
         </div>
       </div>
       <div className={styles["offer"]}>
@@ -37,7 +49,7 @@ const ItemCard = () => {
             <p>Получени оферти:</p> <span>9</span>
           </div>
           <div className={styles["comments-recieved"]}>
-            <p> Коментар:</p> <span>Няма доопълнителна информация</span>
+            <p> Коментар:</p> <span>Няма допълнителна информация</span>
           </div>
         </div>
       </div>

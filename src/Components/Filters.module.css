@@ -22,6 +22,8 @@
   justify-content: center;
   width: 100%;
   margin-bottom: 26px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .filter-wrapper {
@@ -53,9 +55,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .custumer-questions-number {
+  display: flex;
   color: #33bb5a;
   font-size: 26px;
   font-weight: 700;
@@ -66,6 +70,9 @@
 .custumer-questions-custumers {
   font-size: 16px;
   margin: 0;
+  display: flex;
+  margin-top: 8px;
+  margin-left: 8px;
 }
 
 .Filters__icon {
@@ -90,6 +97,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 14px;
 }
 
 .Filters__head__icon {
@@ -131,6 +139,9 @@
   appearance: none;
   filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
   border-radius: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 10;
 }
 
 .Filters-arrow {
@@ -138,6 +149,7 @@
   display: flex;
   height: 10px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .selected {
@@ -164,6 +176,7 @@
   color: white;
   filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .button2 {
@@ -181,6 +194,7 @@
   filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
   border-radius: 30px;
   gap: 10px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -189,6 +203,9 @@
   }
 
   .container-wrapper {
+    width: 100%;
+
+    margin: 0px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -205,7 +222,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
   }
 
   .custumer-questions {
@@ -225,6 +242,7 @@
     align-self: center;
     margin: 18px 0px 16px 0px;
     width: 100%;
+    max-width: 100%;
   }
 
   .container {

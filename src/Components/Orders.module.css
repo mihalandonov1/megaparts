@@ -49,6 +49,7 @@
   color: white;
   filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .list-menu {
@@ -64,9 +65,10 @@
 
 .list {
   display: flex;
-  width: 100%;
+
   margin: 12px 0px 12px 0px;
   gap: 14px;
+  cursor: pointer;
 }
 
 .questions-answers {
@@ -74,9 +76,9 @@
   flex-direction: row;
   justify-content: start;
   align-items: start;
-  width: 100%;
-  padding-top: 20px;
+  margin-top: 20px;
   gap: 14px;
+  cursor: pointer;
 }
 
 .list-menu-button {
@@ -100,6 +102,8 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    padding: 0px;
+    margin-right: 24px;
   }
 
   .questions-answers {
@@ -112,21 +116,34 @@
 
   .button-wrapper {
     flex-direction: row;
-
-    flex-shrink: 1;
     width: 100%;
     gap: 6px;
+    margin-bottom: 0px;
+    border-top: solid 1px #e0e0e0;
+    border-bottom: solid 1px #e0e0e0;
+    padding: 11px 0px 11px 0px;
   }
 
   .button-sidebar {
     display: flex;
-    flex-direction: row;
-    width: auto;
-    padding: 12px 10px 12px 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 12px 14px 10px;
+    max-width: 367px;
+    width: 100%;
+    background-color: #008aee;
+    border: 1px solid #008aee;
+    color: white;
+    filter: drop-shadow(0px 0px 0px rgba(0, 138, 238, 0.15));
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12px;
   }
 
   .list-menu-button {
     display: flex;
     flex-shrink: 0;
+    width: 45px;
+    height: 45px;
   }
 }

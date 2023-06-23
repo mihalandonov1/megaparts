@@ -8,7 +8,9 @@ const Orders = () => {
       <div className={styles["button-wrapper"]}>
         <button className={styles["button-sidebar"]}>Поръчки</button>
         <button className={styles["button-sidebar"]}>Моите запитавания</button>
-        <div className={styles["list-menu-button"]}>\/</div>
+        <div className={styles["list-menu-button"]}>
+          <img src="/Icons/arrowDown.svg" alt="arrowdown" />
+        </div>
       </div>
 
       <ul className={styles["list-menu"]}>
