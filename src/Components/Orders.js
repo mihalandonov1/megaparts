@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Orders.module.css";
+import AdsBlock from "./AdsBlock";
 
 const Orders = () => {
   return (
@@ -28,10 +29,13 @@ const Orders = () => {
           Прегледани (0)
         </li>
       </ul>
+
       <div className={styles["questions-answers"]}>
         <img src="/Icons/question.svg" alt="buy" />
         Въпроси и отговори
       </div>
+
+      <AdsBlock />
     </div>
   );
 };
